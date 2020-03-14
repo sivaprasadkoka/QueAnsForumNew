@@ -1,0 +1,75 @@
+package com.questionanswerforum.Pojo;
+
+import com.google.gson.annotations.SerializedName;
+
+public class QuestionsPojo1 {
+    @SerializedName("id")
+    private
+    String id;
+
+    @SerializedName("post_by")
+    private
+    String post_by;
+
+    @SerializedName("question")
+    private
+    String question;
+
+    @SerializedName("subject")
+    private
+    String subject;
+
+    @SerializedName("tags")
+    private String tags;
+
+    @SerializedName("created_date")
+    private String cdate;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getPost_by() {
+        return post_by;
+    }
+
+    public void setPost_by(String post_by) {
+        this.post_by = post_by;
+    }
+
+    public String getQuestion() {
+        return question;
+    }
+
+    public void setQuestion(String question) {
+        this.question = question;
+    }
+
+    public String getSubject() {
+        return subject;
+    }
+
+    public void setSubject(String subject) {
+        this.subject = subject;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public String getCdate() {
+        return cdate;
+    }
+
+    public void setCdate(String cdate) {
+        this.cdate = cdate;
+    }
+}
